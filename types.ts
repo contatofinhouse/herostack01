@@ -28,6 +28,9 @@ export interface FormData {
   industry: string;
   logoFile?: File[] | null;
   contentFile?: File | null;
+  instagram?: string;
+  facebook?: string;
+  linkedin?: string;
 }
 
 export interface Template {
